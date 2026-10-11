@@ -1,0 +1,43 @@
+# Secrets & credentials
+.env
+.env.*
+*.env
+.creds
+.mailbox
+token.json
+idtoken.txt
+
+# Harvested data (API keys, accounts — NEVER commit)
+data/
+*.jsonl
+apikeys.txt
+accounts.json
+accounts.jsonl
+
+# Logs
+*.log
+farm*.log
+cron.log
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Browser / session state
+*.har
+storage.json
+*.sqlite
+cookies.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
